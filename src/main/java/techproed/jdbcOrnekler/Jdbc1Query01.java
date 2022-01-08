@@ -42,7 +42,10 @@ public class Jdbc1Query01{
     		  
     		  System.out.println(veri.getString("isim")+" " +veri.getInt("maas") );
     	      
-    		  System.out.println("Personel Adı:" +veri.getString(1)+" "+"Maas:"+veri.getInt(2) );
+    		  System.out.println("Personel Adı:" +veri.getString(1)+" **** "+"Maas:"+veri.getInt(2) );
+    		  
+    		  
+    		
     	  
     	  }
     	  
