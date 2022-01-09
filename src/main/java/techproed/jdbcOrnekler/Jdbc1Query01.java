@@ -25,7 +25,7 @@ public class Jdbc1Query01{
     	
    // 2) Bağlantı oluşturmalıyız. uydu şifrelerini girmeliyiz
     	
-    	Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?serverTimezone=UTC", "root", "hüdavendigar33.");
+    	Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?serverTimezone=UTC", "root", "1234");
     	
     	
    // 3)SQL komutları için bir Statement nesnesi oluştur. Her kanal için kumanda da yer ayarlamak
